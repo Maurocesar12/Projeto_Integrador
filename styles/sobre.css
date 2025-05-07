@@ -1,0 +1,73 @@
+.sobre-section {
+    background-color: #fefcf9;
+    padding: 2rem 2rem;
+    margin-top: -80px;
+    margin-bottom: 5.8em;
+  }
+  
+  .sobre-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    justify-content: space-between;
+  }
+  
+  .sobre-texto {
+    flex: 1 1 55%;
+  }
+  
+  .sobre-texto h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    color: #4b2e2e;
+    margin-bottom: 1rem;
+  }
+  
+  .sobre-texto p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .destaque {
+    color: #d84f57;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .destaque span {
+    margin-left: 0.5rem;
+  }
+  
+  .sobre-citacao {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    flex: 1 1 20%;
+    text-align: center;
+  }
+  
+  .sobre-citacao blockquote {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #5a4d3d;
+    margin-bottom: 1rem;
+  }
+  
+  .sobre-citacao .autora {
+    font-weight: bold;
+    color: #4b2e2e;
+  }
+  
+  .sobre-citacao .autora span {
+    font-weight: normal;
+    display: block;
+    font-size: 0.9rem;
+    color: #6c584c;
+  }
+  
