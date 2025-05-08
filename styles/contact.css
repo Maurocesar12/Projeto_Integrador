@@ -1,0 +1,32 @@
+/* 📬 CONTATO */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 0.75rem;
+    border: 1px solid #e3d5ca;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #fffdfb;
+    width: 100%;
+    margin-right: 30em;
+  }
+  
+  .contact button {
+    background-color: #c99aa6;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact button:hover {
+    background-color: #b27d8a;
+  }

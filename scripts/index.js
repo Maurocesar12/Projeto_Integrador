@@ -10,6 +10,8 @@ const observer = new IntersectionObserver((entries) => {
   document.querySelectorAll("section").forEach(section => {
     observer.observe(section);
   });
+
+  //Validação de fomulario
   
   function validarFormulario() {
     const nome = document.getElementById("nome").value;
