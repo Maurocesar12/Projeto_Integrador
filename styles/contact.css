@@ -17,16 +17,16 @@
   }
   
   .contact button {
-    background-color: #c99aa6;
-    color: white;
+    background-color: #5a4d3da6;
+    color: #000000;
     border: none;
     padding: 0.75rem;
     font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
-  }
+  } 
   
   .contact button:hover {
-    background-color: #b27d8a;
+    background-color: #837679;
   }
