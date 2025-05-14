@@ -4,7 +4,7 @@
     text-align: center;
   }
   
-  .section-title {
+  .-title {
     font-family: 'Georgia', serif;
     font-size: 2.3rem;
     color: #5a4d3d;
@@ -65,7 +65,7 @@
   }
 
   @media (max-width: 767px){
-    .depoimentos-section{
+    .depoimentos-{
       padding: 2rem 1rem;
     }
     .section-title{

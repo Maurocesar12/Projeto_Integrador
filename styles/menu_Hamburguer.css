@@ -1,0 +1,93 @@
+/* 🔧 BOTÃO HAMBURGUER */
+.hamburguer {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1100;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hamburguer span {
+  height: 3px;
+  background: #4b2e2e;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* 🔄 ANIMAÇÃO PARA "X" */
+.hamburguer.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburguer.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburguer.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* 🔳 OVERLAY */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* 📱 MENU MOBILE */
+@media (max-width: 767px) {
+  .hamburguer {
+    display: flex;
+  }
+
+  nav ul {
+ position: fixed;
+    top: 0;
+    left: -100%;
+    transform: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #fffdfb;
+    width: 75%;
+    height: 100vh;
+    padding: 5rem 2rem;
+    gap: 2rem;
+    z-index: 1050;
+    transition: left 0.4s ease;
+  }
+
+  nav ul.open {
+    left: 0;
+  }
+
+  nav a {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+  }
+}
