@@ -52,3 +52,9 @@ nav {
   nav a:hover {
     color: #4b2e2e98;
   }
+
+  @media(max-width: 767px){
+      .nav-container{
+        
+      }
+  }

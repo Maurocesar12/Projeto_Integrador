@@ -70,4 +70,14 @@
     font-size: 0.9rem;
     color: #6c584c;
   }
+
+  @media (max-width: 767px){
+    .sobre-texto h2{
+      font-size: 1.5em;
+    }
+    .sobre-citacao{
+      margin-bottom: 10px;
+      box-shadow: 0 10px 22px #6c584c(0, 0, 0, 0.8);
+    }
+  }
   

@@ -57,4 +57,38 @@
     color: #555;
     margin: 0;
   }
+  @media (max-width:767px){
+   .servicos-section {
+    padding: 2rem 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .servicos-grid {
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+  }
+
+  .servico-card {
+    padding: 1.5rem 1rem;
+    min-height: auto;
+  }
+
+  .servico-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .servico-card p {
+    font-size: 0.9rem;
+  }
+
+  .icone {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+}
+  
   

@@ -63,4 +63,23 @@
     font-size: 0.9rem;
     color: #777;
   }
+
+  @media (max-width: 767px){
+    .depoimentos-section{
+      padding: 2rem 1rem;
+    }
+    .section-title{
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .depoimentos-grid{
+      grid: 1.5rem;
+      grid-template-columns: 1fr;
+    }
+    .depoimento-card{
+      padding: 1rem;
+      width: 350px;
+    }
+  }
   
