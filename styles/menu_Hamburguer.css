@@ -73,7 +73,7 @@ nav ul {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background: #fffdfb;
+    background: linear-gradient(135deg, #f8f8f2, #eaeaea, #dcdcdc);
     width: 75%;
     height: 100vh;
     padding: 5rem 2rem;
@@ -87,7 +87,7 @@ nav ul {
   }
 
   nav a {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     padding: 0.5rem 0;
   }
 }
