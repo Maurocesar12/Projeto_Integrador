@@ -1,41 +1,70 @@
 /* 📬 CONTATO */
-.contact{
-  width: 100%;
-  max-width: 600px;
-  margin: 4rem auto;
-  padding: 0 1rem;
-}
-.contact form {
+.contact {
+    max-width: 900px; */
+    margin: 5rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 30px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #4b4033;
+}
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.contact form textarea {
+  grid-column: 1 / -1;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #e3d5ca;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #fffdfb;
+  box-sizing: border-box;
+}
+
+.contact button {
+  grid-column: 1 / -1;
+  background-color: #5a4d3da6;
+  color: #000000;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact button:hover {
+  background-color: #837679;
+}
+
+@media (max-width: 767px) {
+  .contact form {
+    grid-template-columns: 1fr;
   }
-  
-  .contact input,
-  .contact textarea {
-    padding: 0.75rem;
-    border: 1px solid #e3d5ca;
-    border-radius: 10px;
-    font-size: 1rem;
-    background-color: #fffdfb;
-    width: 100%;
-    margin-right: 0;
-  }
-  
-  .contact button {
-    background-color: #5a4d3da6;
-    color: #000000;
-    border: none;
-    padding: 0.75rem;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-  } 
-  
-  .contact button:hover {
-    background-color: #837679;
-  }
+}
 
   @media (max-width: 767px){
       .contact {
