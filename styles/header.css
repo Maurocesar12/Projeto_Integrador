@@ -1,0 +1,19 @@
+.top {
+  background-image: url('../img/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* ou defina conforme o tamanho que quiser */
+  margin-left: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #3d2e1f; /* escolha uma cor que tenha bom contraste */
+}
+
+.top .content {
+  background-color: rgba(255, 255, 255, 0); /* fundo semi-transparente opcional */
+  padding: 2rem;
+  border-radius: 12px;
+}

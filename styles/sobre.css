@@ -3,6 +3,7 @@
     padding: 2rem 2rem;
     margin-top: -80px;
     margin-bottom: 5.8em;
+    border-radius: 30px;
   }
   
   .sobre-content {
@@ -12,6 +13,7 @@
     flex-wrap: wrap;
     gap: 6rem;
     justify-content: space-between;
+    border-radius: 25px;
   }
   
   .sobre-texto {
